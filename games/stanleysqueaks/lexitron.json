@@ -1,0 +1,33 @@
+{
+	"name": "Stanley Squeaks and the Emerald Burrito",
+	"platforms": "Platforms: Web, -Linux Mac and Windows coming soon!",
+	"description": "Stanley Squeaks is an adventuring hamster on a quest to obtain the Emerald Burrito. Help Stanley solve puzzles and avoid traps in an ancient temple. This game is a puzzle platformer where the blocks you touch on the way to the treasure are destroyed on the way out, making it difficult to get out alive!",
+	"players": "1 Player",
+	"byline": "Two Scoop Games",
+	"gamewebsite": "TwoScoopGames.com",
+	"gametwitter": "@StanleySqueaks",
+	"gamefacebook": "",
+
+	"devabout": "Two Scoop Games is Alex Bezuska and Eric Lathrop. Based out of Louisville, Kentucky, Two Scoop Games has produced several games for various game jams while honing their craft. Web developers by trade, Two Scoop Games builds games for the web with a mission of advancing the number of cross-platform games native to the web. Two Scoop Games is an active participant in Game Dev Lou, Louisville's local game development group.",
+	"devwebsite": "TwoScoopGames.com",
+	"devtwitter": "@TwoScoopGames",
+	"devfacebook": "TwoScoopGames",
+
+	"images": ["stanleysqueaks.png", "stanleysqueaks.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"left": "Walk left",
+			"right": "Walk right",
+			"buttonA": "Jump"
+		}
+
+	],
+
+	"exec": "/usr/bin/firefox",
+	"args": "file:///home/kiosk-mode/StanleySqueaks/index.html",
+	"cwd": ""
+
+}
