@@ -1,0 +1,34 @@
+{
+	"name": "BASE.JUMP",
+	"platforms": "Platforms: Web",
+	"description": "Game by mint @mintchipleaf \nArt by Brian Wolf @AmanitaZest \nMusic: The Factory by Multifaros",
+	"players": "1 Player",
+	"byline": "BOOST.DODGE.REFUEL",
+	"gamewebsite": "",
+	"gametwitter": "",
+	"gamefacebook": "",
+
+	"devabout": "Mint",
+	"devwebsite": "mintchipleaf.com",
+	"devtwitter": "mintchipleaf",
+	"devfacebook": "",
+
+	"images": ["basejump.png", "basejump.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"left": "Move left",
+			"right": "Move right",
+			"up": "Boost, slows fall",
+
+		}
+
+	],
+
+	"exec": "/usr/bin/firefox",
+	"args": "file:///home/kiosk-mode/basejump/index.html",
+	"cwd": ""
+
+}
