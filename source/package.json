@@ -1,9 +1,9 @@
 {
   "name": "moonshot",
   "main": "index.html",
-  "description": "Game launcher for the Lexitron arcade machine.",
+  "description": "Game launcher for the Scoop Machine.",
   "version": "0.1.0",
-  "keywords": [ "lexitron", "indie", "games", "launcher", "frontend" ],
+  "keywords": ["louisville", "indie", "games", "launcher", "frontend"],
   "window": {
     // For production, use kiosk mode.
     //"kiosk": true,
