@@ -1,0 +1,36 @@
+{
+	"name": "Sneaky Nessie ",
+	"platforms": "Platforms: Web, Windows, Mac, Linux",
+	"description": "You play as the lovable mythical creature, Nessie, trying to secretly make your way out of the lake, and through the environment. You're risking exposure because you feel drawn to the other side of the town by an unknown force. Use your prehistoric agility, hiding skills, and special disguises to avoid being seen on your journey. ",
+	"players": "1 Player",
+	"byline": "",
+	"gamewebsite": "",
+	"gametwitter": "",
+	"gamefacebook": "",
+
+	"devabout": "",
+	"devwebsite": "",
+	"devtwitter": "",
+	"devfacebook": "",
+
+	"images": ["sneakynessie.png", "sneakynessie.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"left": "Walk left",
+			"right": "Walk right",
+			"up": "Walk up",
+			"down": "Walk down",
+			"space": "Toggle disguise",
+			"shift": "Hold to run"
+		}
+
+	],
+
+	"exec": "/usr/bin/firefox",
+	"args": "file:///home/kiosk-mode/SneakyNessie",
+	"cwd": ""
+
+}

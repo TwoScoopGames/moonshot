@@ -1,0 +1,31 @@
+{
+	"name": "Scurry",
+	"platforms": "Platforms: Web, iPhone, iPad, iPod Touch, Chrome Web Store",
+	"description": "Scurry is a game where you play as a cockroach who is running through a grocery store, avoid obstacles, get sweet power-ups, and try not to fall! Try to get a high score and beat your friends!",
+	"players": "1 Player",
+	"byline": "Run, jump, survive.",
+	"gamewebsite": "",
+	"gametwitter": "",
+	"gamefacebook": "",
+
+	"devabout": "Two Scoop Games is Alex Bezuska and Eric Lathrop. Based out of Louisville, Kentucky, Two Scoop Games has produced several games for various game jams while honing their craft. Web developers by trade, Two Scoop Games builds games for the web with a mission of advancing the number of cross-platform games native to the web. Two Scoop Games is an active participant in Game Dev Lou, Louisville's local game development group.",
+	"devwebsite": "TwoScoopGames.com",
+	"devtwitter": "TwoScoopGames",
+	"devfacebook": "TwoScoopGames",
+
+	"images": ["scurry.png", "scurry.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"space": "Jump"
+		}
+
+	],
+
+	"exec": "/usr/bin/firefox",
+	"args": "file:///home/kiosk-mode/Scurry/index.html",
+	"cwd": ""
+
+}

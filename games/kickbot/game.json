@@ -1,0 +1,32 @@
+{
+	"name": "Kick Bot",
+	"platforms": "Platforms: Web, iPhone, iPad, iPod Touch, Chrome Web Store",
+	"description": "This game is all about quick reflexes and fast action. Maneuver through a procedurally-generated terrain of obstacles like spikes and laser beams. One wrong move and you’re a heap of metal. This game will drive you up the wall!",
+	"players": "1 Player",
+	"byline": "Two Scoop Games",
+	"gamewebsite": "",
+	"gametwitter": "",
+	"gamefacebook": "",
+
+	"devabout": "Two Scoop Games is Alex Bezuska and Eric Lathrop. Based out of Louisville, Kentucky, Two Scoop Games has produced several games for various game jams while honing their craft. Web developers by trade, Two Scoop Games builds games for the web with a mission of advancing the number of cross-platform games native to the web. Two Scoop Games is an active participant in Game Dev Lou, Louisville's local game development group.",
+	"devwebsite": "TwoScoopGames.com",
+	"devtwitter": "TwoScoopGames",
+	"devfacebook": "TwoScoopGames",
+
+	"images": ["kickbot.png", "kickbot.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"left": "Jump Left",
+			"right": "Jump right"
+		}
+
+	],
+
+	"exec": "/usr/bin/firefox",
+	"args": "file:///home/kiosk-mode/KickBot/index.html",
+	"cwd": ""
+
+}
