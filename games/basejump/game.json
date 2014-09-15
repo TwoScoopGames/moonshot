@@ -21,8 +21,7 @@
 			"player": 1,
 			"left": "Move left",
 			"right": "Move right",
-			"up": "Boost, slows fall",
-
+			"up": "Boost, slows fall"
 		}
 
 	],
