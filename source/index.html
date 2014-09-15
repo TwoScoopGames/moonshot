@@ -89,7 +89,29 @@
     </div> <!-- rom-check page end -->
 
     <div id="moonshot" class="page">
-    
+      <ul id="scene" style="display: none;">
+        <li class="layer" data-depth="0.7">
+          <div class="entity dude" data-entity="dude">
+            <img id="dudeJump" src="images/dudeJump.svg" height="140" width="160" hidden></img>
+          </div>
+        </li>
+        <li class="layer" data-depth="0.7">
+          <div class="pc1 obstacle"></div>
+        </li>
+        </li>
+        <li class="layer" data-depth="0.7">
+          <div class="barrel1 obstacle"></div>
+        </li>
+        <li class="layer" data-depth="0.7">
+          <div class="entity horsie" data-entity="horsie">
+            <img id="horsieJump" src="images/horsieJump.svg" height="140" width="160" hidden></img>
+          </div>
+        </li>
+        <li class="layer" data-depth="1">
+          <div class="grass floorAnim">
+          </div>
+        </li>
+      </ul>
       <div class="reveal">
         <div class="slides">
           <section>
@@ -99,7 +121,9 @@
             <section class='autoslide-5000'>
               <img src="images/AboutUs.png">
             </section>
-            
+            <section class='autoslide-5000' style="display: none;">
+              <img src="images/Lexitron_RunJumpDev_CreditsandSponsors.png"></img>
+            </section>
           </section>
           <script type="text/template" class="template">
             <% var path = require('path'); %>
