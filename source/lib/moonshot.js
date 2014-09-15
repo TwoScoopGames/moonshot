@@ -16,7 +16,7 @@
     var template = _.template($('script.template').html());
 
     // Normalize CWD when app is bundled and extracts/runs in a temp dir.
-    var games_path = path.join(path.dirname(process.execPath), 'games');
+    var games_path = path.join(path.dirname(process.execPath), 'game.json');
 
     var isDirectory = function(file) {
       return fs.statSync(path.join(games_path, file)).isDirectory();
