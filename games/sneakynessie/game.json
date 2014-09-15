@@ -29,7 +29,7 @@
 
 	],
 
-	"exec": "/home/kiosk-mode/SneakyNessie",
+	"exec": "/home/kiosk-mode/sneakynessie-linux64/sneakynessie",
 	"args": "",
 	"cwd": ""
 
