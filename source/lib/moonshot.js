@@ -16,7 +16,7 @@
     var template = _.template($('script.template').html());
 
     // Normalize CWD when app is bundled and extracts/runs in a temp dir.
-    var games_path = path.join(path.dirname(process.execPath), 'game.json');
+    var games_path = path.join(path.dirname(process.execPath), 'games');
 
     var isDirectory = function(file) {
       return fs.statSync(path.join(games_path, file)).isDirectory();
@@ -25,7 +25,7 @@
     fs.readdirSync(games_path)
       .filter(isDirectory)
       .forEach(function(gameSlug) {
-        var jsonFile = path.join(games_path, gameSlug, 'lexitron.json');
+        var jsonFile = path.join(games_path, gameSlug, 'game.json');
         if (fs.existsSync(jsonFile)) {
           var game = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
           game.slug = gameSlug;
