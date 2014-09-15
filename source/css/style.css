@@ -63,7 +63,7 @@ html, body, div {
 #scene {
   height: 100%;
   width: 100%;
-  background-image: url(../images/skyline.png);
+  background: #ffcd38;
   image-rendering: -webkit-optimize-contrast;
   background-size: cover;
   position: absolute;
