@@ -29,8 +29,8 @@
 
 	],
 
-	"exec": "/usr/bin/firefox",
-	"args": "file:///home/kiosk-mode/SneakyNessie",
+	"exec": "/home/kiosk-mode/SneakyNessie",
+	"args": "",
 	"cwd": ""
 
 }
