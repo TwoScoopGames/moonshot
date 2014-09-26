@@ -1,0 +1,31 @@
+{
+	"name": "Pig Eat ball",
+	"platforms": "Platforms: ",
+	"description": "",
+	"players": "1 Player",
+	"byline": "",
+	"gamewebsite": "",
+	"gametwitter": "",
+	"gamefacebook": "",
+
+	"devabout": "",
+	"devwebsite": "",
+	"devtwitter": "",
+	"devfacebook": "",
+
+	"images": ["pigeatball.png", "pigeatball2.png", "pigeatball3.png"],
+	"videos": [],
+	"players_min": 1,
+	"players_max": 1,
+	"controls": [{
+			"player": 1,
+			"Directional Pad": "Move"
+		}
+
+	],
+
+	"exec": "/usr/bin/java",
+	"args": "-jar /home/kiosk-mode/games/pigeatball/pigEatBallGame.jar",
+	"cwd": ""
+
+}
