@@ -1,0 +1,30 @@
+{
+    "name": "#bloon",
+    "platforms": "Platforms: Web",
+    "description": "#bloon is a short game experiment. Take to the skies and navigate the balloonist to collect the shooting stars, while avoiding the bomb balloons. Collect as many stars as possible before the balloon ride ends.",
+    "players": "1 Player",
+    "byline": "",
+    "gamewebsite": "http://martinreimer.com/bloon",
+    "gametwitter": "@martinreimer",
+    "gamefacebook": "",
+    "devabout": "Visual Villians",
+    "devwebsite": "http://visualvillains.com/",
+    "devtwitter": "@martinreimer",
+    "devfacebook": "https://www.facebook.com/VisualVillains",
+    "images": [
+        "bloon1.png",
+        "bloon2.png"
+    ],
+    "videos": [],
+    "players_min": 1,
+    "players_max": 1,
+    "controls": [
+        {
+            "player": 1,
+            "dpad": "Move"
+        }
+    ],
+    "exec": "/usr/bin/firefox",
+    "args": "file:///home/kiosk-mode/games/bloon/index.html",
+    "cwd": ""
+}

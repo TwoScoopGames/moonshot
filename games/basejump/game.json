@@ -27,7 +27,7 @@
 	],
 
 	"exec": "/usr/bin/firefox",
-	"args": "file:///home/kiosk-mode/basejump/index.html",
+	"args": "file:///home/kiosk-mode/games/basejump/index.html",
 	"cwd": ""
 
 }
