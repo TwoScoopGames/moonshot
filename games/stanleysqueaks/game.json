@@ -27,7 +27,7 @@
 	],
 
 	"exec": "/usr/bin/firefox",
-	"args": "file:///home/kiosk-mode/games/StanleySqueaks/index.html",
+	"args": "file:///home/kiosk-mode/games/stanleysqueaks/index.html",
 	"cwd": ""
 
 }
