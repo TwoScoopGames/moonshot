@@ -2,7 +2,7 @@ h2 {
   font-size: 40px;
 }
 html, body{
-background: #049fc6;
+background: url(../images/bg.png);
 }
 
 html, body, div {
